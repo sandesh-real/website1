@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+.red-box{
+    width:200px;
+    height: 200px;
+    background: red;
+    position: relative;
+ 
+  
+}
+.yellow-box
+
+{
+    width:100px;
+    height:100px;
+    background: yellow;
+    position: absolute;
+    top:24%;
+    left:24%;
+  
+
+   
+}

@@ -1,0 +1,100 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 0.1rem;
+}
+.header{
+    position: relative;
+    text-align: center;
+
+    background-image: linear-gradient(to top left,rgb(219, 250, 215),antiquewhite );
+
+    padding:1rem 3rem;
+   
+    height: 100vh;
+    width: 100wh;
+
+}
+
+.hero-text{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.hero-text h1{
+    margin-bottom: 1rem;
+}
+.hero-text p{
+    font-size:1.2rem;
+}
+.hero-text button{
+    padding:0.8rem 2rem;
+    margin-top:1rem;
+    font-size:1rem;
+    border: none;
+    background-color: #408b4a;
+    border-radius: 0.2rem;
+    color:#fff;
+    width: 50%;
+}
+.header h1,.header p{
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 0.1rem;
+}
+.services {
+    text-align: center;
+    margin:4rem 0;
+    
+    
+}
+.navigation__menu
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation__menu-logoContainer
+{
+    width: 50px;
+    height:50px;
+    
+}
+.navigation__menu-logoContainer img{
+    width: 100%;
+    height: 100%;
+}
+.navigation__menu-lists
+{
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+    width:45%;
+    text-transform: uppercase;
+}
+.services h2{
+    margin-bottom: 1rem;
+}
+
+.services ul{
+    list-style:none;
+}
+.services ul li{
+    margin-bottom: 0.5rem;
+}
+
+footer{
+    /* position: absolute;
+    bottom:0; */
+    background-color: black;
+    padding:2rem;
+ 
+    
+}
+footer p{
+    color:#fff;
+    text-align: center;
+}
